@@ -1,0 +1,18 @@
+# ================================
+# ==== CPS CONFIGURATION FILE ====
+# ========= by bobcat4848 ========
+
+# Change what the max cps should be at!
+cpsMax: 16
+
+# Change the command that gets executed when the player reaches the max cps!
+# Use {player} to use players name and {cpsMax] to display the max CPS!
+# You can add multiple commands by adding a dash, single quote, the command, followed by another single quote!
+# The possibilities of commands are endless, do whatever you want!
+# There are some examples below, feel free to delete, change, or alter however you please.
+Commands:
+- 'give {player} diamond 10'
+- 'exp give {player} 1000'
+- 'kick {player} Nice AutoClicker, you reached the max CPS of {cpsMax}'
+
+
